@@ -1,0 +1,33 @@
+link: https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+
+video:https://www.educative.io/courses/grokking-the-coding-interview?ref=hackernoon.com&source=post_page---------------------------
+
+1. Sliding Window - to perform a required operation on specific window size of a given array or linked list
+
+    * The problem input is linear data structure such as linked list, array, or string.
+    * asked to find the longest/shortest substring, subarray, or a desired value
+
+2. Two Pointers or iterators - pattern where two pointers iterate through a data structure in tandem until
+    one or both of the pointers hit a certain condition
+
+    * it will feature problems where you deal with sorted arrays (or linked lists)
+    * the set of elements in the array is a pair, a triplet, or even subarray
+
+3. Fast and Slow pointers - also know as Hare and Tortoise algo, uses two pointers which move through the array
+    (or a sequence/linked list) at different speeds.
+
+    * the problem will deal with a loop in a linked list or array
+    * when you need to know the position of a certain element or the overall length of the linkedlist.
+
+4. Merge Intervals - technique to deal with overlapping intervals, or merge intervals if they overlap
+
+    * if you're asked to produce a list with only mutually exclusive intervals
+    * if you hear the term "overlapping intervals"
+
+5. Cyclic sort - deal with problems involving arrays containing numbbers in a given range. Iterates
+    over the array one number at a time, and if the current number you are iterating is not at the correct index,
+    you swap it with the number at the correct index
+
+    * they will be problems involving a sorted array with numbers in a given range
+    * if the problem asks you to find the missing/duplicates/smallest number in a sorted/rotated array
+
