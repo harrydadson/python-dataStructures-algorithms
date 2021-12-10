@@ -40,3 +40,15 @@ Algorthms to find the kth smallest (or largest) item in a data structure, such n
   - choose a so-called pivot item at random
   - partition the array (based on the value of the pivot)
   - instead of recursion of both sides, we take just one side
+
+## Backtracking Algorithms
+
+Form of Recursion. General algorithm for finding all solutions to some computational problems. Often much faster than brute force enumeration of all complete candidates because it can eliminate a large number of candidates with a single test. N-queens problem or Sudoku.
+
+  - for every node the algorithm checks whether the given node can be completed to a valid solution.
+  - if it cannot then the whole subtree is skipped
+  - it recuresively enumerates all subtree of the node
+
+## Dynamic Programming
+
+It is both an optimization technique. Method for solving complex problem by breaking it down into a collection of simpler subproblems
